@@ -1,4 +1,3 @@
-@import url('data:text/css,');
 :root{font-family:ui-monospace,SFMono-Regular,Consolas,monospace;color:#c6edaf;background:#0c1511;--bright:#c6edaf;--muted:#78956c;--panel:#17251c;--line:#354735;color-scheme:dark}
 :root[data-theme=amber]{--bright:#ffd68a;--muted:#ae8753;--panel:#2c2116;--line:#5b452a;color:var(--bright);background:#19130d}
 :root[data-theme=ice]{--bright:#b0e8ff;--muted:#6f9daa;--panel:#152730;--line:#30505d;color:var(--bright);background:#0b171e}

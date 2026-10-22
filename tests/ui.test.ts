@@ -3,7 +3,7 @@ import { readFileSync } from 'node:fs';
 import { beforeEach, afterEach, expect, it, vi } from 'vitest';
 beforeEach(async()=>{
   vi.useFakeTimers(); vi.resetModules(); localStorage.clear();
-  document.documentElement.innerHTML=readFileSync(new URL('../index.html',import.meta.url),'utf8');
+  document.documentElement.innerHTML=readFileSync('index.html','utf8');
   await import('../src/main');
 });
 afterEach(()=>{vi.clearAllTimers();vi.useRealTimers();});
